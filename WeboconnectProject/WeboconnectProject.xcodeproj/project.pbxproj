@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6600FA652BFA18CE001CFECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6600FA642BFA18CE001CFECA /* AppDelegate.swift */; };
+		6600FA672BFA18CE001CFECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6600FA662BFA18CE001CFECA /* SceneDelegate.swift */; };
+		6600FA692BFA18CE001CFECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6600FA682BFA18CE001CFECA /* ViewController.swift */; };
+		6600FA6C2BFA18CE001CFECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA6A2BFA18CE001CFECA /* Main.storyboard */; };
+		6600FA6E2BFA18CF001CFECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA6D2BFA18CF001CFECA /* Assets.xcassets */; };
+		6600FA712BFA18CF001CFECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA6F2BFA18CF001CFECA /* LaunchScreen.storyboard */; };
+		6600FA7C2BFA18CF001CFECA /* WeboconnectProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6600FA7B2BFA18CF001CFECA /* WeboconnectProjectTests.swift */; };
+		6600FA862BFA18CF001CFECA /* WeboconnectProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6600FA852BFA18CF001CFECA /* WeboconnectProjectUITests.swift */; };
+		6600FA882BFA18CF001CFECA /* WeboconnectProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6600FA872BFA18CF001CFECA /* WeboconnectProjectUITestsLaunchTests.swift */; };
+		6600FA952BFA2889001CFECA /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6600FA942BFA2889001CFECA /* Montserrat-VariableFont_wght.ttf */; };
+		6641468B2BFA87DD004562FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6641468A2BFA87DD004562FA /* LoginViewController.swift */; };
+		6666BC052BFE1C690042055D /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666BC042BFE1C690042055D /* CreateProfileViewController.swift */; };
+		6666BC072BFE85C60042055D /* NewOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666BC062BFE85C60042055D /* NewOViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6600FA782BFA18CF001CFECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6600FA592BFA18CE001CFECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6600FA602BFA18CE001CFECA;
+			remoteInfo = WeboconnectProject;
+		};
+		6600FA822BFA18CF001CFECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6600FA592BFA18CE001CFECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6600FA602BFA18CE001CFECA;
+			remoteInfo = WeboconnectProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6600FA612BFA18CE001CFECA /* WeboconnectProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeboconnectProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6600FA642BFA18CE001CFECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6600FA662BFA18CE001CFECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6600FA682BFA18CE001CFECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6600FA6B2BFA18CE001CFECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6600FA6D2BFA18CF001CFECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6600FA702BFA18CF001CFECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6600FA722BFA18CF001CFECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6600FA772BFA18CF001CFECA /* WeboconnectProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeboconnectProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6600FA7B2BFA18CF001CFECA /* WeboconnectProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeboconnectProjectTests.swift; sourceTree = "<group>"; };
+		6600FA812BFA18CF001CFECA /* WeboconnectProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeboconnectProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6600FA852BFA18CF001CFECA /* WeboconnectProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeboconnectProjectUITests.swift; sourceTree = "<group>"; };
+		6600FA872BFA18CF001CFECA /* WeboconnectProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeboconnectProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6600FA942BFA2889001CFECA /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../Downloads/Montserrat/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		6641468A2BFA87DD004562FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6666BC042BFE1C690042055D /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		6666BC062BFE85C60042055D /* NewOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6600FA5E2BFA18CE001CFECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6600FA742BFA18CF001CFECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6600FA7E2BFA18CF001CFECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6600FA582BFA18CE001CFECA = {
+			isa = PBXGroup;
+			children = (
+				6600FA942BFA2889001CFECA /* Montserrat-VariableFont_wght.ttf */,
+				6600FA632BFA18CE001CFECA /* WeboconnectProject */,
+				6600FA7A2BFA18CF001CFECA /* WeboconnectProjectTests */,
+				6600FA842BFA18CF001CFECA /* WeboconnectProjectUITests */,
+				6600FA622BFA18CE001CFECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6600FA622BFA18CE001CFECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6600FA612BFA18CE001CFECA /* WeboconnectProject.app */,
+				6600FA772BFA18CF001CFECA /* WeboconnectProjectTests.xctest */,
+				6600FA812BFA18CF001CFECA /* WeboconnectProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6600FA632BFA18CE001CFECA /* WeboconnectProject */ = {
+			isa = PBXGroup;
+			children = (
+				6600FA642BFA18CE001CFECA /* AppDelegate.swift */,
+				6600FA662BFA18CE001CFECA /* SceneDelegate.swift */,
+				6600FA682BFA18CE001CFECA /* ViewController.swift */,
+				6600FA6A2BFA18CE001CFECA /* Main.storyboard */,
+				6600FA6D2BFA18CF001CFECA /* Assets.xcassets */,
+				6600FA6F2BFA18CF001CFECA /* LaunchScreen.storyboard */,
+				6600FA722BFA18CF001CFECA /* Info.plist */,
+				6641468A2BFA87DD004562FA /* LoginViewController.swift */,
+				6666BC042BFE1C690042055D /* CreateProfileViewController.swift */,
+				6666BC062BFE85C60042055D /* NewOViewController.swift */,
+			);
+			path = WeboconnectProject;
+			sourceTree = "<group>";
+		};
+		6600FA7A2BFA18CF001CFECA /* WeboconnectProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6600FA7B2BFA18CF001CFECA /* WeboconnectProjectTests.swift */,
+			);
+			path = WeboconnectProjectTests;
+			sourceTree = "<group>";
+		};
+		6600FA842BFA18CF001CFECA /* WeboconnectProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6600FA852BFA18CF001CFECA /* WeboconnectProjectUITests.swift */,
+				6600FA872BFA18CF001CFECA /* WeboconnectProjectUITestsLaunchTests.swift */,
+			);
+			path = WeboconnectProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6600FA602BFA18CE001CFECA /* WeboconnectProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6600FA8B2BFA18CF001CFECA /* Build configuration list for PBXNativeTarget "WeboconnectProject" */;
+			buildPhases = (
+				6600FA5D2BFA18CE001CFECA /* Sources */,
+				6600FA5E2BFA18CE001CFECA /* Frameworks */,
+				6600FA5F2BFA18CE001CFECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeboconnectProject;
+			productName = WeboconnectProject;
+			productReference = 6600FA612BFA18CE001CFECA /* WeboconnectProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6600FA762BFA18CF001CFECA /* WeboconnectProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6600FA8E2BFA18CF001CFECA /* Build configuration list for PBXNativeTarget "WeboconnectProjectTests" */;
+			buildPhases = (
+				6600FA732BFA18CF001CFECA /* Sources */,
+				6600FA742BFA18CF001CFECA /* Frameworks */,
+				6600FA752BFA18CF001CFECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6600FA792BFA18CF001CFECA /* PBXTargetDependency */,
+			);
+			name = WeboconnectProjectTests;
+			productName = WeboconnectProjectTests;
+			productReference = 6600FA772BFA18CF001CFECA /* WeboconnectProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6600FA802BFA18CF001CFECA /* WeboconnectProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6600FA912BFA18CF001CFECA /* Build configuration list for PBXNativeTarget "WeboconnectProjectUITests" */;
+			buildPhases = (
+				6600FA7D2BFA18CF001CFECA /* Sources */,
+				6600FA7E2BFA18CF001CFECA /* Frameworks */,
+				6600FA7F2BFA18CF001CFECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6600FA832BFA18CF001CFECA /* PBXTargetDependency */,
+			);
+			name = WeboconnectProjectUITests;
+			productName = WeboconnectProjectUITests;
+			productReference = 6600FA812BFA18CF001CFECA /* WeboconnectProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6600FA592BFA18CE001CFECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6600FA602BFA18CE001CFECA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6600FA762BFA18CF001CFECA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6600FA602BFA18CE001CFECA;
+					};
+					6600FA802BFA18CF001CFECA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6600FA602BFA18CE001CFECA;
+					};
+				};
+			};
+			buildConfigurationList = 6600FA5C2BFA18CE001CFECA /* Build configuration list for PBXProject "WeboconnectProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6600FA582BFA18CE001CFECA;
+			productRefGroup = 6600FA622BFA18CE001CFECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6600FA602BFA18CE001CFECA /* WeboconnectProject */,
+				6600FA762BFA18CF001CFECA /* WeboconnectProjectTests */,
+				6600FA802BFA18CF001CFECA /* WeboconnectProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6600FA5F2BFA18CE001CFECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6600FA952BFA2889001CFECA /* Montserrat-VariableFont_wght.ttf in Resources */,
+				6600FA712BFA18CF001CFECA /* LaunchScreen.storyboard in Resources */,
+				6600FA6E2BFA18CF001CFECA /* Assets.xcassets in Resources */,
+				6600FA6C2BFA18CE001CFECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6600FA752BFA18CF001CFECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6600FA7F2BFA18CF001CFECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6600FA5D2BFA18CE001CFECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6666BC072BFE85C60042055D /* NewOViewController.swift in Sources */,
+				6641468B2BFA87DD004562FA /* LoginViewController.swift in Sources */,
+				6600FA692BFA18CE001CFECA /* ViewController.swift in Sources */,
+				6600FA652BFA18CE001CFECA /* AppDelegate.swift in Sources */,
+				6666BC052BFE1C690042055D /* CreateProfileViewController.swift in Sources */,
+				6600FA672BFA18CE001CFECA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6600FA732BFA18CF001CFECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6600FA7C2BFA18CF001CFECA /* WeboconnectProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6600FA7D2BFA18CF001CFECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6600FA882BFA18CF001CFECA /* WeboconnectProjectUITestsLaunchTests.swift in Sources */,
+				6600FA862BFA18CF001CFECA /* WeboconnectProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6600FA792BFA18CF001CFECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6600FA602BFA18CE001CFECA /* WeboconnectProject */;
+			targetProxy = 6600FA782BFA18CF001CFECA /* PBXContainerItemProxy */;
+		};
+		6600FA832BFA18CF001CFECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6600FA602BFA18CE001CFECA /* WeboconnectProject */;
+			targetProxy = 6600FA822BFA18CF001CFECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6600FA6A2BFA18CE001CFECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6600FA6B2BFA18CE001CFECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6600FA6F2BFA18CF001CFECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6600FA702BFA18CF001CFECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6600FA892BFA18CF001CFECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6600FA8A2BFA18CF001CFECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6600FA8C2BFA18CF001CFECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeboconnectProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.WeboconnectProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6600FA8D2BFA18CF001CFECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeboconnectProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.WeboconnectProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6600FA8F2BFA18CF001CFECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.WeboconnectProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeboconnectProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeboconnectProject";
+			};
+			name = Debug;
+		};
+		6600FA902BFA18CF001CFECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.WeboconnectProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeboconnectProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeboconnectProject";
+			};
+			name = Release;
+		};
+		6600FA922BFA18CF001CFECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.WeboconnectProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeboconnectProject;
+			};
+			name = Debug;
+		};
+		6600FA932BFA18CF001CFECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codebetter.WeboconnectProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeboconnectProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6600FA5C2BFA18CE001CFECA /* Build configuration list for PBXProject "WeboconnectProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6600FA892BFA18CF001CFECA /* Debug */,
+				6600FA8A2BFA18CF001CFECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6600FA8B2BFA18CF001CFECA /* Build configuration list for PBXNativeTarget "WeboconnectProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6600FA8C2BFA18CF001CFECA /* Debug */,
+				6600FA8D2BFA18CF001CFECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6600FA8E2BFA18CF001CFECA /* Build configuration list for PBXNativeTarget "WeboconnectProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6600FA8F2BFA18CF001CFECA /* Debug */,
+				6600FA902BFA18CF001CFECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6600FA912BFA18CF001CFECA /* Build configuration list for PBXNativeTarget "WeboconnectProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6600FA922BFA18CF001CFECA /* Debug */,
+				6600FA932BFA18CF001CFECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6600FA592BFA18CE001CFECA /* Project object */;
+}

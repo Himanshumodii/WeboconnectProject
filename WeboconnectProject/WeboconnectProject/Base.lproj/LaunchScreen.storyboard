@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-VariableFont_wght.ttf">
+            <string>MontserratRoman-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController storyboardIdentifier="splashC" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GroupImg" translatesAutoresizingMaskIntoConstraints="NO" id="hbi-xA-KWF">
+                                <rect key="frame" x="42" y="135" width="308" height="413"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="413" id="jha-gt-FAo"/>
+                                    <constraint firstAttribute="width" constant="308" id="t6t-Bt-eNf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UImage" translatesAutoresizingMaskIntoConstraints="NO" id="qb7-ZL-0ha">
+                                <rect key="frame" x="129" y="290" width="135" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="Hmt-c7-HBK"/>
+                                    <constraint firstAttribute="height" constant="136" id="KGX-e6-VPG"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Find Nearest Local Market" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ew9-7w-CMF">
+                                <rect key="frame" x="54" y="700" width="284" height="79"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="284" id="Yvu-5o-H5w"/>
+                                    <constraint firstAttribute="height" constant="79" id="e1Z-6V-m75"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="MontserratRoman-Bold" family="Montserrat" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ew9-7w-CMF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="0R9-Ja-KPa"/>
+                            <constraint firstItem="ew9-7w-CMF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="641" id="9Ia-eX-SV9"/>
+                            <constraint firstItem="qb7-ZL-0ha" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="231" id="BHL-uT-CXo"/>
+                            <constraint firstItem="hbi-xA-KWF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="76" id="Gut-bm-ajt"/>
+                            <constraint firstItem="hbi-xA-KWF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="bwH-ie-x5A"/>
+                            <constraint firstItem="qb7-ZL-0ha" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="129" id="hMA-Cx-Ox8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693.89312977099235" y="229.57746478873241"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GroupImg" width="309.5" height="414"/>
+        <image name="UImage" width="135.5" height="136"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
